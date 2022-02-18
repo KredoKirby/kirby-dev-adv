@@ -1,0 +1,36 @@
+FOLDERS:
+    - actions
+    - classes
+    - views
+
+CRUD
+    CREATE => RETRIEVE => UPDATE & DELETE
+
+1 = Create the DATABASE/CONNECTION file and CLASSES.
+
+2 = Create the CREATE view file.
+3 = Create the CREATE action file.
+4 = Create the CREATE METHOD inside the class file.
+
+5 = Create the RETRIEVE view (DASHBOARD) file.
+6 = Create the RETRIEVE METHOD inside the class file.
+7 = Display the Array/Data inside the view file.
+
+8 = Create the UPDATE and DELETE buttons.
+
+9 = Create the UPDATE view file.
+10 = Create the METHOD to RETRIEVE the specific DATA for the view/value.
+11 = CREATE the ACTION file for the UPDATE FUNCTION.
+12 = Create the UPDATE METHOD inside the class file.
+
+13 = Create the DELETE action file.
+14 = Create the DELETE METHOD inside the class file.
+
+
+METHOD FLOW:
+    1 = SQL
+    2 = EXECUTE $this->conn->query($sql);
+    3 = REDIRECTION header("location: ....");
+
+    
+

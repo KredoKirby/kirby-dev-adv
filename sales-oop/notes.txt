@@ -1,0 +1,8 @@
+require = is the most strict; it will check the file for errors and stop if there is an error; important files;
+
+require_once = It will check the file if it is already linked (if it is already it will not link it anymore), and it will check the file for errors and stop if there is an error;
+
+
+include_once = It will check the file if it is already linked
+
+include = just include; view files
